@@ -28,12 +28,15 @@
     for ($i = 0; $i <= 3; $i++) {
         echo $array[$i] . "<br>";
     }
-
-    // part 5
     ?>
 
     <ul>
-
+        <?php
+            // part 5
+            foreach ($array as $value) {
+                echo "<li>$value</li>";
+            }
+        ?>
     </ul>
 
 </body>
